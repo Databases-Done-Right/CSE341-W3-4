@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "firstName": "Brett",
+      "lastName": "J",
+      "email": "fake@here.com",
+      "favoriteColor": "blue",
+      "birthday": "Jan 1, 1980"
+    },
+    {
+      "firstName": "Dana",
+      "lastName": "J",
+      "email": "fake2@here.com",
+      "favoriteColor": "green",
+      "birthday": "Jan 2, 1981"
+    },
+    {
+      "firstName": "Sydnee",
+      "lastName": "A",
+      "email": "fake3@here.com",
+      "favoriteColor": "red",
+      "birthday": "Jan 3, 2000"
+    }
+  ]
+}
