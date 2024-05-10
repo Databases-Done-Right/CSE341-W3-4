@@ -1,12 +1,10 @@
 const validator = require('../../helpers/validation');
 
-const contact = (req, res, next) => {
+const collection = (req, res, next) => {
   const validationRule = {
-    firstName: 'required|string',
-    lastName: 'required|string',
-    email: 'required|email',
-    favoriteColor: 'required|string',
-    birthday: 'string'
+    name: 'required|string',
+    companyName: 'required|string',
+    cost: 'required|string'
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
@@ -22,5 +20,5 @@ const contact = (req, res, next) => {
 };
 
 module.exports = {
-  contact
+  collection
 };
