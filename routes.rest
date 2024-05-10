@@ -4,7 +4,7 @@
 GET http://localhost:8080/companies
 
 ### Get a single company by id
-GET http://localhost:8080/companies/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
+GET http://localhost:8080/companies/Je9weycEIqzUtdz0l1PJDk4VoGPTxx9JFBAoBEyd1lt9e6gPk8
 
 ### Create a new company
 POST http://localhost:8080/companies/ HTTP/1.1
@@ -22,7 +22,7 @@ content-type: application/json
 }
 
 ### Update company
-PUT http://localhost:8080/companies/Bqy5ky8e3oQDuEfFfoikkpReQBjvgoeoA3A0PfCq2j95aTYfAK
+PUT http://localhost:8080/companies/TKKWcyTJjIi8T2LZFPDsr4GbhpGQEDMlKoymH8ePPP0j0Qr65B
 content-type: application/json
 
 {
@@ -37,7 +37,7 @@ content-type: application/json
 }
 
 ### Delete a single company by id
-DELETE http://localhost:8080/companies/Bqy5ky8e3oQDuEfFfoikkpReQBjvgoeoA3A0PfCq2j95aTYfAK
+DELETE http://localhost:8080/companies/TKKWcyTJjIi8T2LZFPDsr4GbhpGQEDMlKoymH8ePPP0j0Qr65B
 
 ### Get all services
 GET http://localhost:8080/services
@@ -69,16 +69,16 @@ content-type: application/json
 DELETE http://localhost:8080/services/Bqy5ky8e3oQDuEfFfoikkpReQBjvgoeoA3A0PfCq2j95aTYfAK
 
 
-// Prodiction
+// Production
 
 ### Get all companies
-GET https://cse341-uq0r.onrender.com/companies
+GET https://cse341-w3-4.onrender.com/companies
 
 ### Get a single company by id
-GET https://cse341-uq0r.onrender.com/companies/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
+GET https://cse341-w3-4.onrender.com/companies/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
 
 ### Create a new company
-POST https://cse341-uq0r.onrender.com/companies/ HTTP/1.1
+POST https://cse341-w3-4.onrender.com/companies/ HTTP/1.1
 content-type: application/json
 
 {
@@ -93,7 +93,7 @@ content-type: application/json
 }
 
 ### Update company
-PUT https://cse341-uq0r.onrender.com/companies/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
+PUT https://cse341-w3-4.onrender.com/companies/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
 content-type: application/json
 
 {
@@ -108,16 +108,16 @@ content-type: application/json
 }
 
 ### Delete a single company by id
-DELETE https://cse341-uq0r.onrender.com/companies/2VGAUdsAXdiaKGRFjPH0fae7O9gLLho8efWGsNdXUvkFc0O0D4
+DELETE https://cse341-w3-4.onrender.com/companies/2VGAUdsAXdiaKGRFjPH0fae7O9gLLho8efWGsNdXUvkFc0O0D4
 
 ### Get all services
-GET https://cse341-uq0r.onrender.com/services
+GET https://cse341-w3-4.onrender.com/services
 
 ### Get a single service by id
-GET https://cse341-uq0r.onrender.com/services/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
+GET https://cse341-w3-4.onrender.com/services/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
 
 ### Create a new service
-POST https://cse341-uq0r.onrender.com/services/ HTTP/1.1
+POST https://cse341-w3-4.onrender.com/services/ HTTP/1.1
 content-type: application/json
 
 {
@@ -127,7 +127,7 @@ content-type: application/json
 }
 
 ### Update service
-PUT https://cse341-uq0r.onrender.com/services/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
+PUT https://cse341-w3-4.onrender.com/services/ql24FT8JETBzEUq9CSznvEYVXAxsyArG8imhOBVARelqzmBWlk
 content-type: application/json
 
 {
@@ -137,4 +137,4 @@ content-type: application/json
 }
 
 ### Delete a single service by id
-DELETE https://cse341-uq0r.onrender.com/services/2VGAUdsAXdiaKGRFjPH0fae7O9gLLho8efWGsNdXUvkFc0O0D4
+DELETE https://cse341-w3-4.onrender.com/services/2VGAUdsAXdiaKGRFjPH0fae7O9gLLho8efWGsNdXUvkFc0O0D4
