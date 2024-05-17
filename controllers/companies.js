@@ -122,7 +122,7 @@ const getElementById = async (req, res, next) => {
 // Delete an element with the specified id in the request
 const deleteElement = async (req, res, next) => {
   if (!req.params.id || req.params.id.length != 50) {
-    res.status(400).json('Must use a valid service id to delete a service.');
+    res.status(400).json('Must use a valid service id to delete a company.');
   }
   const element_id = req.params.id;
   theDbConnection.findByIdAndDelete(element_id)
@@ -151,7 +151,7 @@ const updateElement = async (req, res) => {
     });
   }
   if (!req.params.id || req.params.id.length != 50) {
-    res.status(400).json('Must use a valid service id to delete a service.');
+    res.status(400).json('Must use a valid service id to update a company.');
   }
 
   const element_id = req.params.id;

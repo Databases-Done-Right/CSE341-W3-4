@@ -108,7 +108,7 @@ content-type: application/json
 }
 
 ### Delete a single company by id
-DELETE https://cse341-w3-4.onrender.com/companies/2VGAUdsAXdiaKGRFjPH0fae7O9gLLho8efWGsNdXUvkFc0O0D4
+DELETE https://cse341-w3-4.onrender.com/companies/TqM87QP2kcSUR00sm7v2qxBg1R9OsP33AzKEA9CyR3QfN1EHhl
 
 ### Get all services
 GET https://cse341-w3-4.onrender.com/services
