@@ -116,7 +116,7 @@ const updateElement = async (req, res) => {
     });
   }
   if (!req.params.id || req.params.id.length != 50) {
-    res.status(400).json('Must use a valid service id to delete a service.');
+    res.status(400).json('Must use a valid service id to update a service.');
   }
   const element_id = req.params.id;
 
